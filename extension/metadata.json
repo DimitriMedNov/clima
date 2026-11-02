@@ -1,0 +1,8 @@
+{
+  "uuid": "clima@dimitrimednov.github.io",
+  "name": "Clima",
+  "description": "El clima de tu ciudad en la barra de arriba, con ícono de color y grados. Al hacer clic: pronóstico por hora, de 8 días y detalles (sensación térmica, humedad, viento, UV, lluvia, sol), al estilo de Clima de Apple. Datos de Open-Meteo, sin cuenta.",
+  "shell-version": ["48", "49", "50", "51"],
+  "url": "https://github.com/DimitriMedNov/clima",
+  "settings-schema": "org.gnome.shell.extensions.clima"
+}

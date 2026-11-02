@@ -1,0 +1,77 @@
+/* Clima, tema claro: la ventana de color es igual; solo cambia el pie, que va sobre el menú claro. */
+
+/* Barra de arriba */
+.cl-icono-barra { padding-right: 4px; }
+.cl-grados { font-weight: bold; }
+
+/* El menú no lleva relleno propio: el fondo de color llega a la orilla. */
+.cl-menu { padding: 0; }
+.cl-item { padding: 0; spacing: 0; }
+.cl-item:hover, .cl-item:active { background-color: transparent; }
+
+/* Fondo según el tiempo, como en Clima de Apple. Todos dejan el texto blanco por encima de 4.5:1. */
+.cl-scroll { border-radius: 16px; }
+.cl-fondo {
+  width: 380px; padding: 16px 14px 8px 14px; border-radius: 16px; spacing: 10px;
+  background-gradient-direction: vertical; color: #ffffff;
+}
+.cl-claro { background-gradient-start: #1c5aa6; background-gradient-end: #2569b8; }
+.cl-noche { background-gradient-start: #0e1630; background-gradient-end: #1d2b52; }
+.cl-nublado { background-gradient-start: #3f4b5c; background-gradient-end: #566377; }
+.cl-lluvia { background-gradient-start: #2f3d52; background-gradient-end: #45546b; }
+.cl-tormenta { background-gradient-start: #22263a; background-gradient-end: #3a3f5a; }
+
+/* Encabezado */
+.cl-encabezado { spacing: 2px; padding-bottom: 6px; }
+.cl-ciudad { font-size: 1.45em; font-weight: 600; color: #ffffff; }
+.cl-grande { font-size: 4.2em; font-weight: 200; color: #ffffff; }
+.cl-condicion { font-size: 1em; font-weight: 600; color: #ffffff; text-align: center; }
+
+/* Tarjetas */
+.cl-tarjeta { background-color: rgba(0, 0, 0, 0.22); border-radius: 14px; padding: 10px 12px; spacing: 6px; }
+.cl-tarjeta-titulo { font-size: 0.75em; font-weight: bold; color: #e6edf7; padding-bottom: 4px; }
+
+/* Por hora */
+.cl-horas { spacing: 14px; }
+.cl-hora { spacing: 4px; min-width: 44px; }
+.cl-hora-nombre { font-size: 0.85em; font-weight: 600; color: #ffffff; }
+.cl-hora-temp { font-size: 1.05em; font-weight: 600; color: #ffffff; }
+.cl-lluvia { font-size: 0.75em; font-weight: bold; color: #9fd6ff; }
+
+/* Por día */
+.cl-dia { spacing: 10px; padding: 5px 0; border-top: 1px solid rgba(255, 255, 255, 0.15); }
+.cl-dia-nombre { width: 46px; font-weight: 600; color: #ffffff; }
+.cl-dia-icono { width: 34px; }
+.cl-dia-min { width: 34px; text-align: right; color: #e6edf7; }
+.cl-dia-max { width: 34px; color: #ffffff; font-weight: 600; }
+.cl-pista { height: 5px; border-radius: 3px; background-color: rgba(0, 0, 0, 0.3); }
+.cl-relleno { border-radius: 3px; }
+.cl-punto { border-radius: 4px; background-color: #ffffff; border: 1px solid rgba(0, 0, 0, 0.4); }
+
+/* Detalles */
+.cl-rejilla { spacing: 10px; }
+.cl-rejilla-fila { spacing: 10px; }
+.cl-cuadro { min-height: 110px; width: 170px; }
+.cl-cuadro-valor { font-size: 1.6em; font-weight: 600; color: #ffffff; }
+.cl-cuadro-detalle { font-size: 0.85em; color: #ffffff; }
+
+/* Cargando y error */
+.cl-hueso { background-color: rgba(255, 255, 255, 0.14); border-radius: 6px; margin: 3px 0; }
+.cl-error { padding: 28px 20px; spacing: 10px; }
+.cl-error-icono { color: #ffffff; }
+.cl-boton-texto {
+  margin-top: 8px; min-height: 44px; padding: 0 22px; border-radius: 22px; font-weight: bold;
+  color: #ffffff; background-color: rgba(255, 255, 255, 0.2);
+}
+.cl-boton-texto:hover, .cl-boton-texto:focus { background-color: rgba(255, 255, 255, 0.32); }
+.cl-boton-texto:focus { box-shadow: inset 0 0 0 2px #78aeed; }
+
+/* Pie */
+.cl-pie { font-size: 0.8em; color: #c0bfbc; padding-left: 12px; }
+.cl-boton { width: 44px; height: 44px; border-radius: 22px; color: #ffffff; }
+.cl-boton:hover, .cl-boton:focus { background-color: rgba(255, 255, 255, 0.12); }
+.cl-boton:focus { box-shadow: inset 0 0 0 2px #78aeed; }
+.cl-pie { color: #5e5c64; }
+.cl-boton { color: #222226; }
+.cl-boton:hover, .cl-boton:focus { background-color: rgba(0, 0, 0, 0.08); }
+.cl-boton:focus { box-shadow: inset 0 0 0 2px #1c71d8; }

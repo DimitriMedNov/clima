@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.clima" path="/org/gnome/shell/extensions/clima/">
+    <key name="ciudad" type="s">
+      <default>'Mérida'</default>
+      <summary>Nombre de la ciudad que se muestra</summary>
+    </key>
+    <key name="region" type="s">
+      <default>'Yucatán, México'</default>
+      <summary>Estado y país de la ciudad</summary>
+    </key>
+    <key name="latitud" type="d">
+      <default>20.967</default>
+    </key>
+    <key name="longitud" type="d">
+      <default>-89.623</default>
+    </key>
+  </schema>
+</schemalist>
